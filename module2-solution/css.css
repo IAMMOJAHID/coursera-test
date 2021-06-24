@@ -59,6 +59,7 @@
 				border: 2px solid black;
 				margin: 0.8%;
 				background-color: lightgrey;
+				height: 265px;
 			}
 			.col-lg-1{
 				width: 8.33%;
@@ -82,10 +83,7 @@
 				border: 2px solid black;
 				margin: 0.8%;
 				background-color: lightgrey;
-
-				
-				
-				
+				height: 230px;
 			}
 			.col-md-1{
 				width: 8.33%;
