@@ -1,0 +1,62 @@
+
+
+.row>div{
+	
+	
+	background-color: orangered;
+	text-align: center;
+	margin-top: 3%;
+	text-decoration-color: white;
+	color: white;
+}
+.container{
+	
+	width: 90%;
+}
+.Mojahid{
+	
+	font-size: 200%;
+	font-family: Monospace;
+}
+#Hussain{
+	text-align: center;
+	margin-top: 1%;
+}
+p{
+	margin-top: 0.8%;
+	margin-left: 2%;
+	font: bolder;
+}
+
+.navbar-toggle{
+	margin-top: -45px;
+	border: 2px solid black;
+	border-color: black;
+	
+	
+}
+.navbar-header button.novbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid black;
+}
+.visible-xs{
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	
+}
+.container-fluid{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 0px;
+	background-color: orangered;
+	height: 100%;
+	color: white;
+
+}
+#Mojahid{
+	font-family: monospace;
+	position: relative;
+	margin-left: 2.6%;
+
+}
+
