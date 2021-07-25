@@ -9,7 +9,7 @@ body {
 /* Here is one of many  CSS rules you will need... */
 #one {
    position: absolute;
-   margin-top: 650px;
+   margin-top: 39.6%;
    margin-left: 71.7%;
    width: 25%;
    border: 5px solid blue;
@@ -43,7 +43,7 @@ body {
 }
 #four {
    position: absolute;
-   margin-top: 650px;
+   margin-top: 39.6%;
    margin-left: 5px;
    width: 25%;
    border: 5px solid yellow;
