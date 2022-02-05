@@ -5,7 +5,7 @@
 }
 .landing{
 	width: 100%;
-	height: 800px;
+	height: 750px;
 	background-image: url("BackGround1.jpg");
 }
 .text-center{
@@ -15,36 +15,71 @@
 	font-size: 80px;
 }
 #Mission{
-	border: 1px solid black;
 }
 #MissionHeading{
 	text-align: center;
+	margin: auto auto auto auto;
 	margin-top: 30px;
-	margin-left: 41%;
-	border: 2px solid green;
 	width: 15%;
+	font-family: "Georgia", Georgia, serif;
+}
+#line{
+	width: 7%;
+	margin: auto auto auto auto;
+	background-color: red;
 }
 #mission-elaborated{
-	padding: 10px 10px 10px 10px;
-	border: 1px solid green;
-	margin-left: 29%;
-	width: 40%;
-	margin-bottom: 25px;
+	text-align: center;
+	font-family: "Georgia", Georgia, serif;
+	width: 60%;
+	margin: 8px auto auto auto;
 }
-#Features{
-	border: 1px solid black;
+#Beneficiaries{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	font-family: "Georgia", Georgia, serif;
+	width: 50%;
+}
+#list-of-beneficiaries{
+   text-align: left;
 }
 #FeaturesHeading{
 	text-align: center;
+	margin: auto auto auto auto;
 	margin-top: 30px;
-	margin-left: 41%;
-	border: 2px solid green;
 	width: 15%;
+	font-family: "Georgia", Georgia, serif;
 }
 .col-sm{
-	height: 200px;
+	height: 300px;
 	border: 1px solid black;
-	margin: 5px 5px 5px 5px;
+	margin: 13px 8px 8px 8px;
 	margin-bottom: 25px;
 	border-radius: 15px;
+	text-align: center;
+	font-family: "Georgia", Georgia, serif;
+}
+#line1{
+	width: 25%;
+	background-color: red;
+}
+#AboutUs{
+	text-align: center;
+	margin: auto auto auto auto;
+	width: 65%;
+	font-family: "Georgia", Georgia, serif;
+}
+#Testimonies{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	width: 50%;
+	font-family: "Georgia", Georgia, serif;
+}
+#ContactUs{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
 }
