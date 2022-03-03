@@ -1,0 +1,132 @@
+#PageHeading{
+    background-image: url(luca-bravo-zAjdgNXsMeg-unsplash-2.jpg);
+    max-width: 100%;
+    background-position: 100%;
+    background-color: #cccc;
+    text-align: center;
+    color:rgb(243, 240, 240);
+    font-size:1cm;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15%;
+    margin: 0px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+.landing{
+	background-image:url("luca-bravo-zAjdgNXsMeg-unsplash-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+}
+.text-center{
+	text-align: center;
+	padding-top: 230px;
+	color: white;
+	font-size: 80px;
+}
+#Mission{
+}
+#MissionHeading{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	width: 15%;
+	font-family: "Georgia", Georgia, serif;
+}
+#line{
+	width: 7%;
+	margin: auto auto auto auto;
+	background-color: red;
+}
+#mission-elaborated{
+	text-align: center;
+	font-family: "Georgia", Georgia, serif;
+	width: 60%;
+	margin: 8px auto auto auto;
+}
+#Beneficiaries{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	font-family: "Georgia", Georgia, serif;
+	width: 50%;
+}
+#list-of-beneficiaries{
+   text-align: left;
+}
+#FeaturesHeading{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	width: 15%;
+	font-family: "Georgia", Georgia, serif;
+}
+.col-sm{
+	height: 300px;
+	border: 1px solid black;
+	margin: 13px 8px 8px 8px;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	text-align: center;
+	font-family: "Georgia", Georgia, serif;
+}
+#line1{
+	width: 25%;
+	background-color: red;
+}
+#AboutUs{
+	text-align: center;
+	margin: auto auto auto auto;
+	width: 65%;
+	font-family: "Georgia", Georgia, serif;
+}
+#Testimonies{
+	text-align: center;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+	width: 50%;
+	font-family: "Georgia", Georgia, serif;
+}
+#ContactUs{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+}
+
+footer{
+    background-color: #0491ea;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(white,#0491ea);
+
+
+}
+#ContactUsHeading{
+    font-size: 1cm;
+    margin: 10px;
+}
+
+#RupeshDetails{
+    font-size: 18px;
+    line-height: 15px;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#gmailIcon{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+}
+#iGicon{
+    padding: 0px 5px 0px 5px;
+}
+#FBicon{
+    padding: 0px 5px 0px 5px;
+}
+#Liicon{
+    padding: 0px 5px 0px 5px;
+}
