@@ -1,0 +1,426 @@
+body{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+/*Header Part*/
+.landing{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.56) 20.83%, rgba(0, 0, 0, 0.455) 25.52%, rgba(0, 0, 0, 0) 99.98%, rgba(39, 39, 39, 0.7) 99.99%, rgba(152, 152, 152, 0.7) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image:url("image/Header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 341px;
+}
+.text-center{
+    position: absolute;
+    width: 660px;
+    height: 112px;
+    left: 403px;
+    top: 150px;
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.collapsible {
+    position: absolute;
+    margin-top: -8%;
+  margin-left: 75%;
+    width: 231px;
+    height: 60px;
+    background: linear-gradient(180deg, #0491EA 0%, #047AC5 100%);
+    box-shadow: 1.06136e-15px 17.3333px 34.6667px rgba(1, 27, 44, 0.1315), inset -2.57085e-16px -4.19852px 4.19852px #0476BF, inset 2.57085e-16px 4.19852px 4.19852px #0494EF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+    width: 88%;
+    height: 133px;
+    background: #E8F0F2;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 5%;
+  padding: 0px 18px;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding-bottom: 7px;
+}
+#inside-filter{
+    margin-left: 47px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#Date{
+    margin-left: 140px;
+    margin-right: 40px;
+}
+#No-Days{
+    margin-left: 90px;
+}
+#Person{
+    margin-left: 70px;
+
+}
+#head{
+    margin-left: 70px;
+}
+#loc{
+    height: 41px;
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+#Date-below{
+    height: 41px;
+    width: 220px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-top: -30px;
+    margin-left: 2.8%;
+ }
+ #No-days{
+    height: 41px;
+    width: 160px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-top: -30px;
+    margin-left: 4%;
+ }
+ #No-person{
+    height: 41px;
+    width: 140px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-top: -30px;
+    margin-left:100px;
+ }
+ #head-section{
+    position: relative;
+    width: 330px;
+    height: 30px;
+    background: #E8F0F2;
+    border-radius: 5px;
+    margin-left: 4.5%;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+#per-head{
+    position: relative;
+    width: 300px;
+    height: 13px;
+    background: #C6C6C6;
+    background: linear-gradient(
+    to right, 
+    #C6C6C6 0%, 
+    #C6C6C6 15%,
+    #0491EA 15%,
+    #0491EA 85%,
+    #C6C6C6 85%, 
+    #C6C6C6 100%
+  );
+    border-radius: 5px;
+ }
+#amount{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 92.5%;
+    color: #000000;
+    margin-top: 10px;
+}
+#margin{
+    margin-left: 130px;
+}
+ #circle{
+    margin-top: -7px;
+    margin-left: 175px;
+ }
+ #circle-margin{
+    margin-top: -7px;
+    margin-left: 35px;
+ }
+ #per-head2{
+    visibility: hidden;
+    width: 300px;
+    height: 13px;
+    background: #C6C6C6;
+    border-radius: 5px;
+    margin-left: 5%;
+ }
+ #price2{
+
+    margin-top: -50px;
+    margin-left: 1000px;
+ }
+ #Manali{
+    margin-left: 17%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+ }
+#Manali-mag{
+    margin-left: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+ }
+ #loc-logo{
+    margin-left: 15px;
+ }
+ #loc-logo2{
+    margin-left:3px;
+ }
+/*Plan My Trip*/
+#planMyTrip{
+    position: relative;
+    height: 78px;
+    left: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#Filter{
+    margin-left: 580px;
+    width: 231px;
+    height: 60px;
+    background: linear-gradient(180deg, #0491EA 0%, #047AC5 100%);
+    box-shadow: 1.06136e-15px 17.3333px 34.6667px rgba(1, 27, 44, 0.1315), inset -2.57085e-16px -4.19852px 4.19852px #0476BF, inset 2.57085e-16px 4.19852px 4.19852px #0494EF;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+.inline{
+    display: inline-block;
+}
+.inline-text{
+    display: inline-block;
+}
+.contents-part{
+    margin-top: -4%;
+}
+.Box1{
+    margin-top: 50px;
+    display: inline-block;
+    width: 603px;
+    height: 215px;
+    margin-left: 140px;
+    background: #F6F6F6;
+    box-shadow: -15px 15px 30px rgba(234, 234, 234, 0.2), 15px -15px 30px rgba(234, 234, 234, 0.2), -15px -15px 30px rgba(255, 255, 255, 0.9), 15px 15px 38px rgba(234, 234, 234, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(234, 234, 234, 0.5);
+    border-radius: 30px;
+}
+#Box2{
+    margin-left: 24px;
+}
+#image-adjust{
+    width: 280px;
+    height: 195px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#text-adjust{
+    position: relative;
+    width: 210px;
+    height: 33px;
+    left: 295.3px;
+    top: -220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+
+}
+.rating{
+    position: relative;
+    left: 507.3px;
+    top: -270px;
+    width: 85px;
+    height: 21.71px;
+    background: #F6F6F6;
+    box-shadow: -5px 5px 10px rgba(236, 236, 236, 0.2), 5px -5px 10px rgba(236, 236, 236, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(236, 236, 236, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(236, 236, 236, 0.5);
+    border-radius: 15px;
+}
+.ad{
+    padding-left: 30px;
+    margin-top: -240px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+#two{
+    padding-left: 30px;
+    margin-top: -230px;
+    width: 6px;
+    height: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+.day-night{
+    margin-left: 470px;
+    margin-top: -25px;
+    height: 25px;
+    width: 90px;
+    background: linear-gradient(360deg, rgba(29, 161, 242, 0.45) 0%, rgba(29, 161, 242, 0) 100%);
+    box-shadow: 0px 1px 18px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#sun-moon{
+    margin-top: 3px;
+}
+.get-quotes{
+    margin-top: -13px;
+    margin-left: 365px;
+    height: 45px;
+    width: 170px;
+    background: linear-gradient(180deg, #0491EA 0%, #047AC5 100%);
+    box-shadow: 1.06136e-15px 17.3333px 34.6667px rgba(1, 27, 44, 0.1315), inset -2.57085e-16px -4.19852px 4.19852px #0476BF, inset 2.57085e-16px 4.19852px 4.19852px #0494EF;
+    border-radius: 25px;
+}
+#get-quotes-text{
+    width: 127px;
+    height: 23.4px;
+    left: calc(50% - 127px/2 + 172.5px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 17px;
+    padding-top: 8px;
+}
+.cross{
+    margin-left: 530px;
+    margin-top: 10px;
+    width: 60px;
+    height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #FD6767;
+
+}
+.logo{
+    margin-left: 305px;
+    padding-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+#charge{
+    margin-left: 120px;
+}
+/*Footer part*/
+footer{
+    background-color: #0491ea;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(white,#0491ea);
+
+
+}
+#ContactUsHeading{
+    font-size: 1cm;
+    margin: 10px;
+}
+
+#RupeshDetails{
+    font-size: 18px;
+    line-height: 15px;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#gmailIcon{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+}
+#iGicon{
+    padding: 0px 5px 0px 5px;
+}
+#FBicon{
+    padding: 0px 5px 0px 5px;
+}
+#Liicon{
+    padding: 0px 5px 0px 5px;
+}
